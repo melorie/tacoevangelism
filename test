@@ -1,1 +1,3 @@
+'PAGE_URL': 'pages/{slug}'
+
 this is a test
