@@ -1,3 +1,4 @@
-'PAGE_URL': 'pages/{slug}'
-
+<!DOCTYPE html>
+<html>
 this is a test
+</html>
