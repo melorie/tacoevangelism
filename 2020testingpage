@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<style>
+      html {background-color: whitesmoke;}
+      html {font-family: serif;}
+      html {color: #123c80;}
+.responsive {
+  width: 55%;
+  height: auto;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+      
+header {  
+	font-size: 12vw;
+        text-align: center;
+        }
+tagline {
+	font-size: 3vw;
+	text-align: center; 
+        }
+body { 
+	text-align: center;
+        }
+q { 
+	text-align: left; 
+        }
+a { 
+	text-align: left; 
+        }
+footer { 
+	text-align: center;
+        }
+        
+        </style>
+     
+<header> 
+<tr>table words</tr>
+<tr><img src="https://i.imgur.com/vh1O4CF.png" width="100%"</tr>
+  <img src="https://i.imgur.com/vh1O4CF.png" class="responsive">
+        </header>
+<tagline>
+	Finally, a Serious Candidate for President.
+	</tagline>
+    <p>
+<body>
+  I'm running for president
+        </body>
+        <p>
+        <footer>
+<a href="mailto:mel@tacoevangelism.me?Subject=I Support Mel" target="_top">e-mail me</a>
+
+        </footer>
+  </font>
+
+</html>
+
+
