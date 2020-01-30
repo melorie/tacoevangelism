@@ -15,7 +15,7 @@ header {
 	line-height: .01;
         }
 tagline {
-		font-size: 2.25vw;
+		font-size: 2.7vw;
 		text-align: center; 
         }
 body { 
@@ -23,14 +23,27 @@ body {
         }
 .left { 
     	text-align: left;
+        font-size: 2.8vw;
 }
-.issuesh { font-size: 5vw;}
+.issuesh { font-size: 4vw;}
 
+.issuesb { font-size: 4vw;}
 
-.issuesb { font-size: 5vw;
-display: list-item;
-list-style-image: url('https://i.imgur.com/0MGdTJh.png');
+ul {
+  list-style: none;
+  font-size: 4vw;
 }
+
+ul li::before {
+  content: "\2022";
+  color: #c83432;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+faq {font-size: 3vw}
 
 q { 
 font-weight: bold;
@@ -38,8 +51,11 @@ font-weight: bold;
         }
 a {  
         }
+        
+   
 footer { 
 	text-align: center;
+	font-size: 1.5vw;
         }
         
         </style>
@@ -50,16 +66,22 @@ footer {
 <tagline>
 	Finally, a Serious Candidate for President.
 	</tagline>
-    <p>
+    <br><br><br><br>
 
-  I'm running for president. 
-      <p>WORDS
-	      
-	              <div class="issuesh">Here's some stuff about why I'm running.</div><p>
-        <div class="issuesb">
-        stuff
-        </div>
+<div class="issuesh">Here's some stuff about why I'm running.<br>Parahraphs. Filler text, filler text, filler text. Okay here are some random things, blah blah blah. Why I'm running:<br></div>
+
+<p>
+        <ul>
+        <li>Stuff</li>
+        <li>More Stuff</li>
+        <li>Things</li>
+        <li>Other Things</li>
+        </ul>
+       
+        <hr color=#123c80 width=50%>
+        <p><font-size: 4vw>
         
+        <faq>Some questions you may have</faq>
        
 <div class="left">        
 <q>Are you serious?</q><br>
